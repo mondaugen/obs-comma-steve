@@ -348,8 +348,14 @@
         <action name="MoveResizeTo">
             <x>center</x>
             <y>center</y>
-            <width>40%</width>
-            <height>33%</height>
+            <monitor>current</monitor>
+        </action>
+    </keybind>
+    <!-- Resize to standard size -->
+    <keybind key="C-W-r">
+        <action name="MoveResizeTo">
+            <width>560</width>
+            <height>403</height>
             <monitor>current</monitor>
         </action>
     </keybind>
