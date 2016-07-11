@@ -348,54 +348,49 @@
         <action name="MoveResizeTo"><x>center</x><y>center</y><monitor>current</monitor></action>
     </keybind>
     <!-- Keybindings to select windows with number keys -->
-    <keybind key="C-A-0">
+    <keybind key="C-A-1">
         <action name="Execute">
             <command>nth_win_switcher.sh 1</command>
         </action>
     </keybind>
-    <keybind key="C-A-1">
+    <keybind key="C-A-2">
         <action name="Execute">
             <command>nth_win_switcher.sh 2</command>
         </action>
     </keybind>
-    <keybind key="C-A-2">
+    <keybind key="C-A-3">
         <action name="Execute">
             <command>nth_win_switcher.sh 3</command>
         </action>
     </keybind>
-    <keybind key="C-A-3">
+    <keybind key="C-A-4">
         <action name="Execute">
             <command>nth_win_switcher.sh 4</command>
         </action>
     </keybind>
-    <keybind key="C-A-4">
+    <keybind key="C-A-5">
         <action name="Execute">
             <command>nth_win_switcher.sh 5</command>
         </action>
     </keybind>
-    <keybind key="C-A-5">
+    <keybind key="C-A-6">
         <action name="Execute">
             <command>nth_win_switcher.sh 6</command>
         </action>
     </keybind>
-    <keybind key="C-A-6">
+    <keybind key="C-A-7">
         <action name="Execute">
             <command>nth_win_switcher.sh 7</command>
         </action>
     </keybind>
-    <keybind key="C-A-7">
+    <keybind key="C-A-8">
         <action name="Execute">
             <command>nth_win_switcher.sh 8</command>
         </action>
     </keybind>
-    <keybind key="C-A-8">
-        <action name="Execute">
-            <command>nth_win_switcher.sh 9</command>
-        </action>
-    </keybind>
     <keybind key="C-A-9">
         <action name="Execute">
-            <command>nth_win_switcher.sh 10</command>
+            <command>nth_win_switcher.sh 9</command>
         </action>
     </keybind>
     <!-- Resize to standard size -->
@@ -417,6 +412,10 @@
     </keybind>
     <keybind key="C-W-Down">        # Moves to right side but no resize
         <action name="MoveResizeTo"><y>-0</y></action>
+    </keybind>
+    <!-- minimize -->
+    <keybind key="C-W-m">
+        <action name="Iconify"/>
     </keybind>
     <!-- Keybindings for running applications on Home + E -->
     <keybind key="W-e">
