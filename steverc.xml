@@ -420,6 +420,10 @@
     <keybind key="C-W-Down">        # Moves to right side but no resize
         <action name="MoveResizeTo"><y>-0</y></action>
     </keybind>
+    <!-- minimize -->
+    <keybind key="C-W-m">
+        <action name="Iconify"/>
+    </keybind>
     <!-- Keybindings for running applications on Home + E -->
     <keybind key="W-e">
       <action name="Execute">
